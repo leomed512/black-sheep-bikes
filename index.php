@@ -1,0 +1,1 @@
+<?php header( 'direccion de tu archivo: /index.html' ) ;  ?>
