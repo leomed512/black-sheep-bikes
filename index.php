@@ -1,1 +1,1 @@
-<?php header( 'direccion de tu archivo: /index.html' ) ;  ?>
+<?php include_once("index.html"); ?>
