@@ -1,0 +1,83 @@
+:root {
+    --off-white:#EBF2FA;
+    --dark-blue: #05668D;
+    --light-blue: #427AA1;
+    --dark-green: #679436;
+    --light-green:#A5BE00;
+    --box-shadow:2px 2px 6px 0px #333333;
+}
+.wrapper {
+    /* max-width:900px; */
+    max-width:90%;
+    height: auto;
+    margin: 0 auto;
+    margin-block-end: 40px;
+    text-align: center;
+}
+.wrapper h1 {
+    margin: 0 auto;
+    margin-block-start: 30px ;
+    padding: 5px;
+    border-radius: 20px;
+    font-size: 2.5rem;
+    background-color: var(--light-green);
+    box-shadow: 2px 2px 6px 0px #333333;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(280px, 1fr));
+    grid-template-rows: repeat(4, 450px);
+    justify-items: center;
+    align-items: center;
+}
+.mtb__img {
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+.mtb__img img {
+    width: 100%;
+    height: 240px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 6px 0px #333333;
+}
+.mtbbike__description {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    text-align: center;
+    vertical-align: center;
+    font-size: 1.6rem;
+    line-height: 3rem;
+}
+.mtbbike__description ul {
+    width: 150px;
+    margin-block-start: 20px;
+}
+.bikecard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-block-start: 10px;
+    padding:10px;
+    border-radius: 10px;
+    background-color:var(--dark-blue);
+    font-size: 1.8rem;
+    color: white;
+    box-shadow: 2px 2px 6px 0px #333333;
+}
+.road__img {
+    grid-column: 1/2;
+    grid-row:3/4
+}
+.road__img img{
+    width: 100%;
+    height: 260px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 6px 0px #333333;
+}
+.road {
+    grid-column: 1/2;
+    grid-row:4/5;
+}
+.roadcard {
+    background-color: var(--dark-green);
+}

@@ -1,0 +1,21 @@
+@media (min-width: 768px) {
+    .products__container {
+        flex-wrap: wrap;
+    }
+    .products h2 {
+        margin-block-end: 160px;
+    }
+    .services {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .services__container {
+        margin-inline-end: 80px;
+        margin-block-end: 20px;
+    }
+    .reviews {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+}

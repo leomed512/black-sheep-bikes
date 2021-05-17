@@ -1,0 +1,87 @@
+:root{
+    --box-shadow: 2px 2px 6px 0px #333333;
+    --light-green:#A5BE00;
+    --box-shadow: 2px 2px 6px 0px #333333;
+    --dark-blue: #05668D;
+}
+main {
+    position: relative;
+}
+main h1 {
+    width: 250px;
+    margin: 0 auto;
+    margin-block-start: 15px;
+    margin-block-end: 20px;
+    padding: 5px;
+    border-radius: 20px;
+    text-align: center;
+    background-color: var(--dark-blue);
+    box-shadow: var(--box-shadow);
+    color: white;
+}
+.buy-section {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.buy__card {
+    width: 95%;
+    max-width: 310px;
+    height: 420px;
+    margin: 10px;
+    padding: 10px;
+    background-color: #EBF2FA;
+    border-radius: 10px;
+    box-shadow:2px 2px 6px 0px #333333;
+}
+.buy__card img {
+    width: 285px;
+    height: 240px;
+    border-radius: 10px;
+    margin: 0 auto;
+    box-shadow:2px 2px 6px 0px #333333;
+}
+.buy__detail h3 {
+    text-align: center;
+    margin-block-end: 10px;
+}
+.buy__detail {
+    margin-block-start: 10px;
+    padding:10px;
+    font-size: 1.8rem;
+    color: black;
+}
+.form__card {
+    width: 95%;
+    max-width: 310px;
+    height: 250px;
+    margin: 10px;
+    padding: 10px;
+    background-color: #427AA1;;
+    border-radius: 10px;
+    font-size: 1.8rem;
+    color: white;
+    line-height: 3rem;
+    box-shadow:2px 2px 6px 0px #333333;
+}
+.form__card input {
+    border-radius: 5px;
+    color: gray;
+}
+.form__card button{
+    width: 100%;
+    margin-block-start: 20px;
+    padding: 5px;
+    border: none;
+    border-radius: 10px;
+    font-size: 2rem;
+    font-weight: bold;
+    background-color: #A5BE00;
+    box-shadow:2px 2px 6px 0px #333333;
+}
+.form__card button:hover{
+    background-color: #EBF2FA;
+    font-size: 2.2rem;
+}
